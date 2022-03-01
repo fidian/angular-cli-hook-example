@@ -1,0 +1,22 @@
+{
+    "name": "@fidian/angular-cli-hook-example",
+    "version": "0.0.2",
+    "scripts": {
+        "build": "npm run clean && tsc",
+        "clean": "rm -rf dist/",
+        "reinstall": "rm -rf node_modules/ package-lock.json && npm install"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "dependencies": {
+        "@angular-devkit/architect": "^0.1302.5",
+        "@types/node": "^17.0.21",
+        "json-schema": "^0.4.0"
+    },
+    "devDependencies": {
+        "@berglund/angular-cli-hooks": "^0.0.7",
+        "@types/karma": "^6.3.3",
+        "karma": "^6.3.17",
+        "typescript": "^4.5.5"
+    }
+}
