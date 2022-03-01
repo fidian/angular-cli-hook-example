@@ -9,7 +9,7 @@ How to Include
 
 1. Install the hook package.
 
-        npm install @drn/angular-atomizer-hooks
+        npm install @fidian/angular-cli-hook-example
 
 2. Add `angular-cli-hooks.json` to the root of your project.
 
