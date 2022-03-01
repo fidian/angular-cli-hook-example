@@ -1,6 +1,6 @@
 {
     "name": "@fidian/angular-cli-hook-example",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "scripts": {
         "build": "npm run clean && tsc",
         "clean": "rm -rf dist/",

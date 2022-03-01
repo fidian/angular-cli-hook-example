@@ -61,6 +61,11 @@ function runHook(hookName: string) {
                         angularConfig.filesToFindGlob
                     )
                 )
+                .then(() => Promise.resolve({ success: true }), (err) => {
+                    log.error(err);
+
+                    return { success: false };
+                })
                 .finally(() => process.chdir(oldCwd))
         );
     };
